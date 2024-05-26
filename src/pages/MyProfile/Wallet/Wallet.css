@@ -1,0 +1,26 @@
+.WalletBalance{
+    max-width: 275px;
+    border-radius: 10px !important;
+}
+.WalletImgContainer{
+    margin-bottom: 15px;
+}
+.Balance{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.Redeeme button{
+    background-color: #34c695 !important;
+    background-image: none !important;
+}
+.equivilanceBalance{
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    padding-right: 10% !important;
+    padding-left: 35px !important;
+    text-align: end;
+}
+.RedeemeLi{
+    margin-top: 40px;
+}

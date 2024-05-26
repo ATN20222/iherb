@@ -1,0 +1,456 @@
+@media (max-width:1290px) {
+    .FavHeader {
+        padding-right: 20px !important;
+    }
+    .FavHeaderDirectionLtr {
+        padding-left: 20px !important;
+    }
+}
+
+@media (min-width:990px) {
+    .CardProduct {
+        width: 180px !important;
+    }
+}
+
+@media (max-width:990px) {
+    .AllProductsContainer {
+        padding-right: 0px !important;
+    }
+    .MailingImg {
+        max-width: 300px;
+    }
+    .SubscribingText h1 {
+        font-size: 50px;
+    }
+    .CategoryItem,
+    .CategoryLastItem {
+        width: 25% !important;
+    }
+    .CategoryText {
+        display: none;
+    }
+    .CategoryBtn {
+        width: 80%;
+        max-width: 150px;
+    }
+    .OrderdByContainer {
+        margin-top: 20px !important;
+    }
+    .CardFilters {
+        display: none;
+    }
+    .Shadow {
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0000005e;
+        z-index: 1000;
+        top: 0;
+        height: 100%;
+        overflow-y: scroll;
+    }
+    .Shadow .CardFilters {
+        width: 50%;
+    }
+    .MostRightFilterCol {
+        order: -1;
+    }
+    .CenterDetailsCol {
+        order: 3;
+        margin-bottom: 50px;
+        padding-right: 50px !important;
+        padding-left: 50px !important;
+    }
+    .AllProductsContainer {
+        direction: rtl;
+    }
+    .ProductImagesContainer {
+        direction: ltr;
+    }
+    .RightSideBtns {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .Quantity {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+
+    .RightSideBtns .CardDetailsBtn{
+        height: fit-content;
+    }
+    .RightSideBtns .FavDetailsBtn{
+        margin-top: 0;
+    }
+
+
+}
+
+@media (max-width:768px) {
+    .LoginRow {
+        padding: 40px;
+    }
+    .LoginInnerRow .RightSide {
+        order: -1;
+    }
+    .RememberMe,
+    .ForgetPassword {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:600px) {
+    .custom-next {
+        position: absolute;
+        top: 45%;
+        right: 0px !important;
+        width: 30px;
+        height: 30px;
+    }
+    .custom-prev {
+        position: absolute;
+        top: 40%;
+        left: 0px !important;
+        width: 30px;
+        height: 30px;
+    }
+    .Shadow .CardFilters {
+        width: 70%;
+    }
+}
+
+@media (max-width:575px) {
+   
+    .ProductImagesContainer {
+        order: -1;
+    }
+    .SubImageCard {
+        width: 15% !important;
+    }
+    .PricesContainer .Container img {
+        width: 25% !important;
+    }
+    .RightSideBtns {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .FavDetailsBtn {
+        margin-top: 10px !important;
+    }
+    .CenterDetailsCol {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -50px;
+        padding: 30px !important;
+        padding-top: 0 !important;
+    }
+    .VariationsContainer {
+        order: -1;
+        margin-bottom: 28px;
+    }
+    .CenterDetailsCol .VariationName {
+        padding: 0 !important;
+    }
+    .CartFavQuantContainer {
+        margin-top: 40px !important;
+    }
+    .MostRightFilterCol {
+        padding-top: 10px !important;
+    }
+    .VariationOne .row,
+    .VariationTwo .row {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .CategoryItem,
+    .CategoryLastItem {
+        padding: 5px !important;
+    }
+    .CategoryBtn {
+        padding: 5px !important;
+    }
+}
+
+@media (max-width:545px) {
+    .FooterRow .col-md-4 {
+        width: 100%;
+    }
+    .FooterRow .col-md-4 .row {
+        width: 100%;
+    }
+    .FooterListItem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center !important;
+    }
+    .CategoryBtn img {
+        width: 80%;
+        max-width: 150px;
+    }
+    .CategoryItem::after {
+        content: "";
+        position: absolute;
+        top: 30%;
+        right: 0;
+        height: 40%;
+        width: 2px !important;
+        background-color: #000;
+    }
+}
+
+@media (min-width:440px) {
+    .CardProduct {
+        width: 210px !important;
+    }
+    .ProductNewCard {
+        width: 210px !important;
+    }
+}
+
+@media (max-width:440px) {
+    .CardProduct {
+        width: 180px !important;
+    }
+    .ProductNewCard {
+        width: 180px !important;
+    }
+    .SubImageCard {
+        width: 20% !important;
+    }
+}
+
+@media (max-width:360px) {
+    .ProductNewCard {
+        width: 150px !important;
+    }
+}
+
+@media (max-width:1025px) {
+    .Quantity {
+        display: flex;
+        justify-content: normal;
+        flex-direction: row;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:1290px) {
+    .FavHeader{
+        padding-right: 20px !important;
+    }
+    .FavHeaderDirectionLtr{
+        padding-left: 20px !important;
+    }   
+ }
+@media (min-width:990px) {
+    .CardProduct{
+        width: 180px !important;
+    }
+ }
+
+@media (max-width:990px) {
+    .AllProductsContainer{
+        padding-right: 0px !important;
+    }
+    .MailingImg{
+        max-width: 300px;
+    }
+    .SubscribingText h1{
+        font-size: 50px ;
+    }
+    .CategoryItem,.CategoryLastItem{
+        width: 25% !important;
+    }
+    .CategoryText{
+        display: none;
+    }
+    .CategoryBtn {
+        width: 80%;
+        max-width: 150px;
+    }
+    .OrderdByContainer{
+        margin-top: 20px !important;
+    }
+
+
+    .MenuButton{
+        display: flex !important;
+    }
+    .RightNav{
+        display: none !important;
+    }
+}
+
+@media (max-width:768px) {
+    .LoginRow {
+        padding: 40px;
+    } 
+    .LoginInnerRow .RightSide{
+        order: -1;
+    }
+    .RememberMe{
+        font-size: 12px;
+    }
+    .ForgetPassword{
+        font-size: 12px
+    }
+}
+@media (max-width:600px) {
+    .custom-next {
+        position: absolute;
+        top: 45%;
+        right: 0px !important;
+        /* color: #fbd203; */
+        width: 30px;
+        height: 30px;
+    }
+    .custom-prev {
+        position: absolute;
+        top: 40%;
+        left: 0px !important;
+        /* color: #fbd203; */
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+@media (max-width:580px) {
+    .FooterRow .col-md-4{
+        width: 33.33333%;
+    }
+    .SelectedFilters {
+        justify-content: center !important;
+       
+    }
+    .SelectedFilters .row .col-sm-3{
+        width: 25%;
+    }
+
+    .MyProfileRow{
+        justify-content: center !important;
+    }
+    .MyProfileList{
+        position: absolute;
+        transition: all .2s ease-in-out;
+        right: -50%;
+        width: 50% !important;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+        background: white;
+        padding: 20px;
+        z-index: 5;
+        position: fixed;
+        top: 30%;
+        /* MyProfileList */
+    }
+    .SideProfileMenu{
+        display: block ;
+        height: 40px;
+        width:  80px;
+        background-color: #fbd203;
+        position: absolute;
+        left: -60px;
+        top: 40%;
+        z-index: -1;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        rotate: 90deg;
+        cursor: pointer;
+    }
+    
+}
+@media (max-width:545px) {
+    
+    .FooterRow .col-md-4{
+        width: 100%;
+    }
+    .FooterRow .col-md-4 .row{
+        width: 100%;
+    }
+    .FooterListItem{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center !important;
+    }
+    .CategoryBtn img {
+        width: 80%;
+        max-width: 150px;
+    }
+    .CategoryItem::after {
+        content: "";
+        position: absolute;
+        top: 30%;
+        right: 0;
+        height: 40%;
+        width: 2px !important;
+        background-color: #000;
+    }
+}
+ @media (min-width:440px) {
+    .CardProduct{
+        width: 210px !important;
+    }
+    .ProductNewCard {
+        width: 210px !important;
+    }
+
+ }
+ @media (max-width:440px) {
+    
+    .ProductNewCard {
+        width: 180px !important;
+    }
+
+    .CardProduct{
+        width: 160px !important;
+    }
+
+    .CatContainer .circle-image{
+        width: 60px;
+        height: 60px;
+    }
+    .CatContainer p{
+        font-size: 12px;
+    }
+    .react-multiple-carousel__arrow{
+        display: none;
+    }
+    
+ }
+@media (min-width:440px) {
+    .CardProduct{
+        height: 320px !important;
+
+    }
+}
+@media (max-width:440px) {
+    
+    .CardProduct{
+        height: 350px !important;    
+    }
+}
+ 
+ @media (max-width:360px) {
+    .CardProduct{
+        width: 150px !important;
+    }
+    .ProductNewCard {
+        width: 150px !important;
+    }
+    .CardProduct{
+        height: 350px !important;    
+    }
+ }

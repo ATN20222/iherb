@@ -1,0 +1,57 @@
+.ListItem{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.ListTitle{
+    font-size: 20px;
+    font-weight: 700;
+}
+.ListItemCount{
+    font-size: 16px;
+    padding-right:5px;
+    font-weight: 500;
+}
+.ProductListRow{
+    display: flex;
+    justify-content: end;
+    padding-right: 25px;
+}
+
+.ProductListRow .col-lg-2{
+    margin: 10px;
+   
+}
+.ProductsListCol{
+    width: 150% !important;
+    max-height: 700px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.ListHeader{
+    padding-bottom: 15px;
+
+}
+.ProductInList{
+    width: auto !important;
+
+    position: relative;
+}
+.ProductInList button{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    
+}
+.RemoveList svg{
+    color: #37d39f;
+}
+
+@media (max-width:768px) {
+    .ProductListRow{
+        justify-content: center;
+        padding: 0;
+    }
+}

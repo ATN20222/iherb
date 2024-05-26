@@ -1,0 +1,33 @@
+.LocationInLists{
+    padding-bottom: 10px !important;
+}
+.AddListHeader{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 30px ;
+}
+.AddListHeader a{
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+.ListIcon{
+    padding-left: 15px;   
+}
+.AddIcon{
+    color: #37d39f;
+}
+.ListsHr{
+    position: relative;
+    width: 125%;
+    right: 0%;
+}
+
+@media (max-width:768px) {
+    .ListsHr{
+        position: relative;
+        width: 100%;
+        right: 0%;
+    }
+}

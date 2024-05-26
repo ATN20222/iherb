@@ -1,0 +1,93 @@
+/* Footer Style */
+footer{
+    z-index: 2;
+    width: 85%;
+}
+.FooterSection{
+    min-height: 400px;
+    background: linear-gradient( to bottom , #fbd203  , #cc9a25);
+    /* background-color: #eee; */
+    font-family: 'Josefin';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.FooterShadow{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-image: url('../../Assets/Images/Pattern.png');
+    background-size: cover;
+    opacity: .9;
+}
+
+.copyRights{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Avenir';
+}
+
+.LinksCol{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.bn46 {
+    width: 130px;
+    height: 50px;
+    /* margin: 10px; */
+    margin: 5px;
+}
+.bn45 {
+    width: 130px;
+    height: 45px;
+    /* margin: 10px; */
+    margin: 5px;
+}
+.FooterLink{
+    text-decoration: none;
+    font-family: 'Avenir';
+    font-size: 18px;
+    transition: all .2s ease-in-out;
+    color: black;
+}
+.FooterLink:hover{
+    color: rgb(114, 114, 114);
+}
+.FooterListItem{
+    padding-top: 10px;
+    text-align: end !important;
+
+}
+.FooterRow{
+    padding-top: 30px;
+}
+.FooterLogo{
+    height: 100%;
+    z-index: 50;
+    padding-bottom: 4px; 
+}
+.LogoFooterWords{
+    font-family: 'SFBold' !important;
+    font-size: 22px; 
+    font-weight: 900 !important;
+    color: black;
+    font-style: italic;
+}
+.CopyRightsContainer{
+    z-index: 10;
+}
+.FooterContact{
+    display: flex;
+    align-items: baseline;
+}
+.FooterFontEn{
+    font-family: 'SFRegular';
+}

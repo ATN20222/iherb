@@ -1,0 +1,108 @@
+.PersonImgContainer{
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 40px;
+}
+
+.PersonImgCol{
+    display: flex;
+    flex-direction: column-reverse;
+    /* padding: 10px !important; */
+    /* padding-bottom: 0 !important; */
+    padding: 0 !important;
+    z-index: 18;
+}
+.Msg{
+    padding: 10px;
+
+}
+
+.MsgText{
+    
+    background-color: #38d39f;
+    color: white;
+    padding: 10px;
+    text-align: end;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.MsgText span{
+    position: relative;
+    z-index: 25;
+}
+
+.MsgText::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    
+    bottom: 2px;
+    left: -49px;    
+    rotate: 40deg;
+    background: white;
+    z-index: 12;
+    
+}
+.MsgText::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    background-color: #38d39f;
+    bottom: 0;
+    left: -20px;
+    z-index: 10;
+}
+.DateTime span{
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.639);
+    position: relative;
+    left: -10%;
+}
+.Received{
+    direction: rtl;
+}
+
+.MsgTextReceived{
+    margin-left: 0;
+    margin-right: 20px;
+    display: flex;
+
+}
+.MsgTextReceived span{
+    z-index: 500;
+}
+
+.MsgTextReceived::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    background-color: #e6e9f1;
+    bottom: 0;
+    right: -20px;
+    z-index: 10;
+}
+.MsgTextReceived::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;    
+    bottom: 2px;
+    right: -50px;    
+    rotate: -40deg;
+    background: white;
+    z-index: 12;
+    
+}
+.MsgTextReceived{
+    background-color: #e6e9f1;
+}
+.MsgTextReceived{
+    color: black;
+}

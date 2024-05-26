@@ -1,0 +1,323 @@
+.AllProductsSection{
+    margin-top: 10px;
+}
+.HeaderRow{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f4f4f4;
+}
+.HeaderRow button{
+    background-color: white;
+}
+.AllProductsContainer{
+    background-color: white !important;
+    padding-top:0px ;
+}
+.PriceInDetails{
+    color: #cc9a25;
+    font-weight: bold;
+}
+.PriceBeforeInDetails span{
+    font-weight: bold;
+    font-weight: 800 !important;
+}
+
+.MostRightFilterCol{
+    min-height:400px ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-left: 3px solid #80808057;
+}
+.CartFavQuantContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 150px;
+}
+.FavDetailsBtn{
+    margin-top: 10px ;
+}
+.Quantity{
+    margin-bottom: 10px;
+}
+.Quantity button{
+    display: inline-grid;
+    padding: 6px;
+    border: 1px solid grey;
+
+}
+
+.Quantity button svg{
+    width: 10px;
+    height: 10px;
+}
+.Quantity h5{
+    padding: 10px;
+}
+.GalleryItem {  
+    width: 30% !important;
+    height: 240px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.GalleryItem img{
+    width: 80% !important;
+}
+.CardDetailsBtn span,
+.FavDetailsBtn span{
+    padding-left: 5px;
+
+}
+.FavDetailsBtn svg{
+    color: #f33d3c;
+}
+
+.ProductImagesContainer{
+    padding: 20px;
+    position: relative;
+}
+.SubImageCard{
+    margin: 5px;
+    width: 25% !important;
+    height: 80px !important;
+}
+.SubImageCard{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid rgb(183, 183, 183) !important;
+    
+}
+.DiscountInDetails{
+    background-color: black;
+    color: white;
+    font-family: 'STCBold';
+    height: 40px ;
+    padding: 10px;
+    margin-top: 10px;
+}
+.SubImageSeeMore{
+    position: absolute;
+    background-color: #dedede8d;
+    width: 100%;
+    height: 100%;
+
+}
+.DetailsHeader{
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.CartFavQuantContainer{
+    margin-top: 50px;
+}
+.CenterDetailsCol{
+    padding-right: 20px ;
+}
+.RateInDetails ,
+.ProductDetailsInDetails{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-items: start;
+}
+.DetailsHr{
+    width: 90%;
+}
+
+.ProductDetailsInDetails{
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: start;
+}
+.VariationsContainer{
+    text-align: end;
+}
+.DetailsHeader{
+    width: 100%;
+}
+.VarItemBtn{
+    margin: 2px;
+    
+}
+
+
+.VarItemBtn:hover{
+    background-color: #eba80d !important;
+}
+.VariationTwo{
+    margin-top: 20px;
+}
+.MostRightFilterCol ,
+.CenterDetailsCol{
+    padding-top: 50px;
+}
+.MostRightFilterCol{
+    position: relative;
+    border: none;
+}
+.MostRightFilterCol::after{
+    position: absolute;
+    content: "";
+    background-color: #80808057;
+    width: 2px;
+    height: 80%;
+    left: -2px;
+
+}
+
+.Shadow{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000005e;
+    z-index: 1000;
+    top: 0;
+    height: 100%;
+    /* padding-top: 40px; */
+    overflow-y: scroll;
+    
+}
+.Shadow .CardFilters{
+    width: 50%;
+}
+.GalleryRow{
+    padding: 20px;
+}
+.GalleryItem{
+    margin: 10px;
+    transition: all .2s ease-in-out;
+    position: relative;
+    height: max-content !important;
+    
+}
+.SettingsCard{
+    max-height:400px ;
+}
+.SettingsCard .container{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.GalleryItem:hover{
+    cursor: pointer;
+    scale: 1.4;
+    /* position: fixed; */
+    z-index: 220000;
+    width: 20%;
+    
+    margin: 20px;
+}
+.GalleryItem:hover .SettingsCard .container {
+    overflow-y: visible !important;
+    overflow-x: visible !important;
+}
+.Shadow .GalleryCard {
+    width: 70% !important;
+}
+.FavBtnInDetails{
+    right: 10%;
+}
+.ActiveVarOne{
+    background-color: orange;
+}
+.LoadingVarTwo{
+    text-align: center;
+}
+.FavBtnInDetails svg{
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.3));
+    width: 30px;
+    height: 30px;
+}
+.ImgAndName{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.RevImg{
+    background: grey;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 10px;
+}
+.RevContainer{
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 10%;
+    margin-bottom: 10px;
+}
+.RateInDetails{
+    align-items: center;
+    
+}
+.RateInDetails svg{
+    color: gold;
+}
+.Star{
+    color: gold;
+}
+.AllReviewsContainer{
+    max-height: 400px;
+    overflow-y: scroll;
+}
+.RevDate{
+    color: grey;
+    margin-right: 10px;
+}
+.RevDetails{
+
+    margin-top: 10px;
+}
+
+.ListsCheckBoxes{
+    display: flex;
+    flex-direction: column;
+    align-items: end !important;
+}
+.ListCheckBox{
+    direction: rtl !important;
+}
+.ListCheckBox input{
+    margin-left: 10px;
+}
+.AddToListCard{
+    z-index: 10 !important;
+}
+.AddListHeaderInAddToList{
+    padding: 0 !important;
+
+}
+.RightSideBtns button{
+    margin: 5px !important;
+}
+.SubImageCard{
+    overflow: hidden;
+    margin: 10px !important;
+}
+.subImage{
+    transition: all 0.2s ease-in-out;
+}
+/* .subImage:hover{
+    scale: 3;
+    z-index: 200;
+}    */
+
+.stock{
+    color: grey;
+    padding-top: 2px;
+}
+.SubImageCard img{
+    max-width: 80% !important;
+}
+@media (max-width:575px) {
+    .GItem{
+        
+        height: 100px !important;
+        width: 61% !important;
+    }
+}

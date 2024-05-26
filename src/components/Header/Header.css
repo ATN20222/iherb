@@ -1,0 +1,181 @@
+.navbar{
+    /* background-color: rgb(171, 228, 0); */
+    background: linear-gradient( to bottom , #fbd203  , #cc9a25);
+    
+}
+
+.RightNav ul {
+    height: 100%;
+    display: contents;
+}
+.container{
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.RightNav ul li a{
+    transition: all .2s linear;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    
+}
+.RightNav ul li:hover a{
+    color: #d4d4d4;
+    
+}
+.RightNav ul li button{
+    padding: 15px 32px 15px 32px;
+    /* height: 70px; */
+    border: #fff;
+    border-radius: 10px;
+    color: #fff;
+    /* background: #1d4ac4; */
+    background-image: linear-gradient(90deg, #791A96, #4C78DF);
+    font-weight: 600;
+    font-size: 17px;
+    transition: none !important;
+    transition: all .3s linear;
+}
+.RightNav ul li button svg{
+    scale: 1.3;
+}
+.barbar{
+    height: 5px;
+    width: 0%;
+    position: absolute;
+    bottom: -5px;
+    /* background: #330b72; */
+    background-image: linear-gradient(to right ,#791A96,#4C78DF);
+    /* background-color: #7228a1; */
+    z-index: 60;
+    transition: all .5s linear;
+    /* width: 100%; */
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    left: 0;
+    z-index: 48;
+}
+
+nav{
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    background-color: #061231;
+    background-color: white;
+    min-height:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    transition: all .5s ease-in-out;
+}
+nav .row{
+    height: 100%;
+    width: 100%;
+}
+.LogoSpan{
+    color: white;
+    font-size: 40px;
+}
+
+.RightNav{
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    align-self: center;
+
+}
+
+.Word-1,
+.Word-2,
+.Word-3{
+    color: black;
+    font-weight: 800;
+    font-style: italic;
+}
+.Word-2{
+    color: white;
+}
+.LangBtn span{
+    font-weight: 600;
+}
+.SearchContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SearchContainer svg{
+    position: absolute;
+    top: 30%;
+    right: 20px;
+}
+.LoginText{
+    padding-right: 2px;
+}
+.SearchContainer input{
+    outline: 1px solid black;
+}
+.Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.LogoWords{
+    padding-left: 7px;
+}
+.SearchLink svg{
+    color: black;
+}
+.MenuButton{
+    position: absolute;
+    right: 10px !important;
+    width: 60px !important;
+    height: 60px !important;
+    font-size: 30px !important;
+    display: none ;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: transparent;
+    transition: all 0.2s linear;
+    border-radius: 10px;
+}
+.MenuButton:active{
+    border: 1px solid black;
+}
+.SideBar{
+    position: fixed;
+    right: 0;
+    background: #d6a61d;
+    width: 250px;
+    height: 100%;
+    z-index: 9999999999999;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+    transition: all 0.5s ease-in-out;
+    right: -500px;
+}
+.ActiveSideBar{
+    right: 0;
+}
+.SideBar ul{
+    width: 100%;
+    margin-bottom: 0 !important;
+    display: flex;
+    flex-direction: column;
+}
+.SideBar ul li{
+    margin: 5px;
+}
+.SideBar ul li input{
+    width: 90%;
+}

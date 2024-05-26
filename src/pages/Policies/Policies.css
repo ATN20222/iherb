@@ -1,0 +1,40 @@
+.PrivacyCol{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 60%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.PolicyHeader{    
+    background-color: #eee;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.PolicyHeader h6{
+    margin: 0;
+    padding: 5px !important;
+    height: 100%;
+    text-align: end;
+    padding-right: 30px !important;
+    display: flex ;
+    align-items: center;
+    justify-content: end;
+}
+.PolicyHeader h5{
+    margin: 0;
+    padding: 5px !important;
+    height: 100%;
+    text-align: start;
+    padding-left: 30px !important;
+    display: flex ;
+    align-items: center;
+
+}
+.PolicyText{
+    text-align: start;
+    padding: 40px;
+    padding-right: 20px;
+}

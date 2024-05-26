@@ -1,0 +1,165 @@
+.OrderCard{
+    cursor: pointer;
+    min-height: 100px;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;}
+.OrderCard >.row{
+    width: 100%;
+    height: 100%;
+}
+.OrderImageCol .card{
+    padding: 3px;
+    background-color: #d8d8d8;
+}
+.OrderBriefCol::after{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 80px;
+    background-color: #d8d8d8;
+    right: 10px;
+}
+.OrderStatusCol,
+.OrderBriefCol,
+.OrderImageCol{
+    position: relative;
+    padding: 10px;
+    flex-direction: column;
+}
+.Pending{
+    color: orange;
+}
+.LightBlack{
+    color: #585858;
+}
+@media (max-width:768px) {
+    .OrderBriefCol::after{
+        content: "";
+        position: absolute;
+        width: 40%;
+        height: 3px ;
+        background-color: #d8d8d8;
+        bottom: -2px;
+        left: 30%;
+    }
+}
+
+@media (max-width:580px) {
+    .OrdersRow{
+        justify-content: center !important;
+    }
+    .OrdersLi{
+        display: flex;
+        justify-content: center;
+    }
+}
+.Overlay{
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    background-color: #58585846;
+    z-index: 80000;
+    left: 0;
+    top: 0;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.OrderDetailsCard{
+    position: relative;
+    z-index: 80001;
+    padding: 40px;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.MoreOrderDetails{
+    border-radius: 10px;
+    border: 1px solid black;
+    height: auto;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.MoreOrderDetails ul li{
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MoreOrderDetails ul li::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #e1e1e1;
+}
+.TotalPriceItem::after{
+    height: 0 !important;
+}
+.TotalPriceItem .TotalPrice{
+    font-size: large;
+    font-weight: 600;
+    color: #e4b926;
+}
+.DetailsItem{
+    color: #7e7e7e;
+    padding-right: 15px;
+}
+.OrderPaymentMethod{
+    color: #39d3a0;
+    margin: 20px;
+    font-weight: 500;
+}
+.CloseDetailsItem{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.OrderCancel{
+    color: orange;
+    padding: 10px;
+    cursor: pointer;
+}
+.OrderDetailsItem{
+    margin-top: 5px;
+}
+.RateProduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.CancelOrder{
+    z-index: 999999;
+}
+.RefundLink{
+    color: black;
+}
+.RateProduct span{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}

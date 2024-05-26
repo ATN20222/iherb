@@ -1,0 +1,41 @@
+.ProductNewCard{
+    height: 380px !important;    
+    border-radius: 20px !important;
+    overflow: hidden;
+    /* margin: 10px; */
+    position: relative;
+    padding: 10px;
+    /* padding-bottom: 2px; */
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    text-decoration: none;
+    border: 1px solid #dfdada !important;
+    border-radius: 20px !important;
+}
+.ImageNewCardContainer{
+    padding: 10px;
+    background-color: white;
+    height: 60%;
+}
+
+.ProductNewCardDescription{
+    font-size: 12px;
+    font-family: 'STCBold';
+    text-align: center;
+    /* height: 30px; */
+    overflow: hidden !important;
+
+}
+.DiscountNewCardContainer{
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: absolute;
+    background-color: #f33d3c;
+    top: -42px;
+    rotate: -45deg;
+    left: -51px;
+    padding-top: 50px;
+    padding-left: 43px;
+    padding-right: 44px;
+}

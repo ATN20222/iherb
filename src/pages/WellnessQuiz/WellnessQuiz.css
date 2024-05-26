@@ -1,0 +1,143 @@
+.QuizContainer{
+    margin-top: 25px !important;
+    background-color: #f4f4f4;
+    /* min-height: 500px; */
+    min-height: 700px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.QuizContainer .QuizRow{
+    height: 100% !important;
+    width: 100% !important;
+    position: relative;
+}
+.QuizCol{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    padding: 40px !important;
+}
+.QuizCol span{
+    margin-top: 1;
+}
+.QuizItem img{
+    max-width: 180px;
+
+}
+.QuizText{
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+.QuizItem{
+    margin: 20px !important;
+    
+}
+.StartQuizBtn{
+    border-radius: 15px !important;
+    padding-top:    8px !important;
+    padding-bottom: 8px !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    color: white !important;
+}
+.QuizCard{
+    height: max-content !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    position: relative;
+    border-radius: 15px !important;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.LeftQuizImage,
+.RightQuizImage{
+    position: absolute;
+    opacity: 0.7;
+    width: 250px !important;
+}
+.LeftQuizImage{
+    left: -12px;
+}
+.RightQuizImage{
+    right: -12px;
+}
+.QuizAnswerBtn{
+    border-radius: 15px !important;
+    padding-top:    8px !important;
+    padding-bottom: 8px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    color: white !important;
+    width: 120px;
+    margin: 10px;
+}
+.ProgressCol{
+    display: flex;
+    width: 100% !important;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.ProgressItem{
+    width: calc(100% / 13);
+    /* width: 100px; */
+    height: 8px;
+    border: 1px solid #38d39f;
+    margin: 2px;
+       
+}
+.ProgressItem:nth-child(1),
+.ProgressItem:nth-child(2),
+.ProgressItem:nth-child(3){
+    background-color: #38d39f;
+}
+.BackQuestBtn{
+    position: absolute;
+    left: 0px;
+    width: 50px !important;
+    height: 50px !important;
+    padding: 10px;  
+    border: none;
+    background-color: transparent;
+}
+
+.BackQuestBtn svg{
+    color: #efc40b;
+    width: 100%;
+    height: 100%;
+}
+.QuizResultRow{
+    justify-content: center !important;
+}
+.QuizResultRow>div{
+    margin: 10px;
+}
+.QuizResCol{
+    z-index: 10;
+}
+.QuizProducts{
+    margin-top: 50px !important;
+        z-index: 10;
+    margin-bottom: 30px;
+}
+.QuizProductsTitle{
+    z-index: 10;
+}
+.ResultText{
+    padding: 20px;
+}
+.QuizProducts >.row{
+    justify-content: center !important;
+    align-items: center !important;
+    padding-right: 0 !important;
+}
+.QRow{
+    width: 90%;
+}
+.CurrentQuest{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: fit-content !important;
+}

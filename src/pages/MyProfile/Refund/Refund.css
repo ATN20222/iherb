@@ -1,0 +1,39 @@
+.RefundTextArea{
+    min-height: 300px !important;
+}
+
+.AllReasonsContainer{
+    transition: all 0.5s ease-in-out;
+    height: 56px;
+    overflow: hidden;
+    
+}
+.OpenReasons{
+    height: fit-content;
+}
+.TransportProblem{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-top: 0; 
+}
+.TransportProblem svg{
+    width: 30px !important;
+    height: 30px !important;
+    color: #fbd203;
+}
+.ReasonsContainer ul li{
+    padding: 10px;
+    text-align: start;
+    cursor: pointer;
+}
+.UploadProblemImage{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}

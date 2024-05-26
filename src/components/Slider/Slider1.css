@@ -1,0 +1,92 @@
+.custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px; 
+    z-index: 1000;
+}
+
+.custom-prev {
+    left: -50px; 
+    rotate: 180deg;
+    top: 40%;
+}
+
+.custom-next {
+    right: -50px; 
+}
+
+.CatName{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.nextCat{
+    position: absolute;
+    left: 5px;
+    z-index: 100;
+    cursor: pointer;
+    top: 0;
+
+}
+.prevCat{
+    position: absolute;
+    right: 5px;
+    z-index: 100;
+    cursor: pointer;
+    top: 0;
+}
+.CatIconCol{
+    height: 100px;
+}
+.CatIcon{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.ImageInside{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.CatContainer {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+  .circle-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.circle-image img {
+    width: 60%; 
+    height: 60%; 
+    object-fit: cover;
+    object-position: center;
+}
+.text {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.CatWithIcon{
+    top: 35% !important;
+    z-index: 100;
+}
+.react-multi-carousel-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.GroupItem{
+    padding: 10px;
+}

@@ -1,0 +1,24 @@
+.ProductImgRev{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.RevImgCont{
+    padding: 10px;
+    background: #c1c1c1;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.ActiveStar{
+    color: gold;
+}
+.StarsRate{
+    width: 30px;
+    height: 30px;
+}
+.RatingStars{
+    direction: rtl;
+    text-align: start;
+}

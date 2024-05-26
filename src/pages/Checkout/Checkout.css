@@ -1,0 +1,33 @@
+.TitleInCheckout{
+    text-align: end;
+    padding-right: 20px;
+}
+.CashOnDelivery,
+.OnlinePayment{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+}
+.PayBalance{
+    padding: 10px;
+    color: red;
+    
+}
+
+.CashOnDelivery label,
+.OnlinePayment label,
+.UseWalletBalance label,
+.UseWalletBalance img{
+    padding-right: 10px;
+}
+@media (max-width:768px) {
+    .WalletBalanceCol {
+        order: 4;
+        justify-content: end !important;
+    }
+    .CashOnDelivery,
+    .OnlinePayment, 
+    .UseWalletBalance{
+        padding-bottom: 10px;
+    }
+}

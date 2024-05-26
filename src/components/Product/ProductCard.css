@@ -1,0 +1,144 @@
+.CardProduct{
+    /* max-height: 280px; */
+
+    border-radius: 20px !important;
+    overflow: hidden;
+    /* margin: 10px; */
+    position: relative;
+    padding-bottom: 2px;
+    text-decoration: none;
+    direction: ltr;
+    background: #00000007 !important;
+}
+
+.ImageCardContainer{
+    /* padding: 20px; */
+    background-color: white !important;
+    /* height: 95%; */
+    height: 60% !important;
+    overflow: hidden;
+
+}
+.ProductRegularPrice{
+    font-family: 'STCBold';
+    font-size: 13px;
+    /* font-weight: 900 !important; */
+    white-space: nowrap;
+}
+.ProductDiscountPrice{
+    font-family: 'STCBold';
+    font-size: 11px;
+    text-decoration: line-through;
+
+}
+.ProductName{
+    white-space: nowrap;
+    text-align: center;
+    font-family: 'STCBold';
+    font-weight: 900 !important;
+    overflow: hidden;
+}
+.Price{
+    font-family: 'STCBold';
+    font-size: 15px;
+    font-weight: 900 !important;
+    color: #cc9a25;
+}
+.DiscountPrice{
+    font-family: 'STCBold';
+    font-size: 14px;
+    font-weight: 900 !important;
+}
+.ProductDescription{
+    font-size: 11px;
+    font-weight: 900;
+    text-align: end;
+    position: relative;
+    top: -5px;
+    height: fit-content;
+
+    height: 50px;
+    overflow: hidden;
+}
+.DiscountContainer{
+    position: relative;
+    top: -9px;
+    background: black;
+    color: white;
+    font-size: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.Rate img{
+    width: 12px;
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.Rate{
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 14px;
+    font-weight: 600;
+}
+.ProductCol{
+    width: 50% !important;
+}
+.FavBtn{
+    width: fit-content !important;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    border-radius: 50% !important;
+}
+.FavBtn:focus{
+    border: none !important;
+    outline: none !important;
+}
+.FavBtn svg{
+    width: 20px;
+    height: 20px;
+    color: white;
+    
+}
+/* .AddedToFav{
+    background-color: black !important;
+    border-radius: 50% !important;
+    color: #fbd203;
+    width: 15px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 10px;
+} */
+
+ 
+.AddedToFav svg{
+
+    color: #f33d3c;
+}
+.NamingPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 20px !important;
+
+}
+.PricingPart{
+    padding-left: 20px !important;
+
+}
+.NamingPart h6{
+    padding: 5px;
+    overflow: hidden;
+    max-height: 45px;
+    height: max-content !important;
+    white-space: unset !important;
+    text-align: end !important;
+}

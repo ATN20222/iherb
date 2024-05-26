@@ -1,0 +1,15 @@
+.CollapseContainer{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.CollapseHeaderContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.CollapseIcon{
+    padding-left: 50px;
+}

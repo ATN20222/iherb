@@ -1,0 +1,157 @@
+.LoginSection{
+    margin-bottom: 100px;
+}
+.LoginPageIHoneyLink{
+    margin-top: 20px !important;
+    padding: 20px;
+
+}
+.LoginPageIHoneyLink a{
+    flex-direction: column;
+}
+.LoginPageIHoneyLink a .LogoWords{
+
+    font-size: 20px;
+
+}
+.SecondWord{
+    color: #e7c20e;
+}
+.LoginWithCol{
+    margin: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.LoginWithCol button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 18px;
+}
+.LoginWithRow{
+    margin-top: 40px !important;
+}
+.LoginInnerRow{
+    border: 1px solid black !important;
+    border-radius: 20px;
+}
+.RightSide{
+    border-left: 1px solid rgba(75, 75, 75, 0.334);
+}
+.NotHaveAccount{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.NotHaveAccount span{
+    padding: 12px;
+
+    padding-right: 20px;
+}
+.EmailInput, .PasswordInput{
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    border-radius: 18px !important;
+    border: 1px solid black !important;
+}
+.RememberMe{
+    display: flex !important;
+    justify-content: center;
+}
+.RememberMe label{
+    padding-right: 10px;
+}
+.RememberMe input[type='checkbox']{
+    scale: 1.5;
+}
+.RegisterBtn span,
+.LoginBtn span{
+    color: white;
+    
+}
+.RegisterBtn{
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    border-radius: 18px !important;
+}
+.RegisterBtn,
+.LoginBtn {
+    background: linear-gradient( to bottom , #fbd203  , #cc9a25);
+    
+}
+.LeftSide , 
+.RightSide{
+    padding: 25px !important;
+}
+.LogInWithBtn:hover{
+    background-color: #e7c20e !important;
+}
+.ForgetPassword{
+    text-decoration: none;
+    color: #b48416;
+}
+.LogInWithBtnRow{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+    align-items: center;
+}
+.LoginWithIcon {
+    display: flex;
+    justify-content: flex-end;
+}
+.RegisterUnderText{
+    font-size: 12px !important;
+    color: rgb(160, 160, 160) !important;
+}
+.HrContainer{
+    width: 80% !important;
+}
+.SignInWithInRegister{
+    margin-bottom: 35px;
+}
+.OTPInput{
+    margin: 0;
+    padding: 0;
+}
+.OTPInput input{
+    min-width: 50px;
+    max-width: 70px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+
+.OTPInput input[type=number]::-webkit-inner-spin-button,
+.OTPInput input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; 
+}
+.OTPInput input[type=number] {
+  -moz-appearance: textfield;
+}
+.ConfirmOTP{
+    margin-top: 30px !important;
+}
+.OTPInfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.OTPRow{
+    margin-top: 30px !important;
+}
+.error-message{
+    color: red;
+    font-weight: 600;
+}
+.ResendOtp{
+    outline: none;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    background-color: transparent;
+    padding:0 !important;
+}
